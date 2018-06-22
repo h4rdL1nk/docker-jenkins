@@ -11,7 +11,7 @@ pipeline {
         string(name: 'VERSION', defaultValue: 'latest', description: 'Version to build')
     }
     environment{
-        IMAGE_NAME = 'smartdigits/jenkins-sdi'
+        IMAGE_NAME = 'jenkins-ci'
     }
     options {
         timestamps()
